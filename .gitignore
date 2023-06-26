@@ -1,0 +1,27 @@
+logs
+target
+home
+/.idea
+/.bsp
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+*.iml
+.DS_Store
+
+**/application.conf
+
+.metals/
+.bloop/
+.ammonite/
+metals.sbt
+
+.vscode/
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+*.code-workspace

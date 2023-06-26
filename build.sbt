@@ -1,8 +1,8 @@
 ThisBuild / name         := "template"
 ThisBuild / organization := "com.thedmitriyk"
 
-ThisBuild / scalaVersion := "3.3.0"
-// ThisBuild / packageTimestamp := Package.gitCommitDateTimestamp
+ThisBuild / scalaVersion     := "3.3.0"
+ThisBuild / packageTimestamp := Package.gitCommitDateTimestamp
 
 scalacOptions ++= Seq(
   "-feature",

@@ -27,6 +27,7 @@ libraryDependencies ++= Seq( // published for Scala 3
 // ).map(_.cross(CrossVersion.for3Use2_13))
 
 libraryDependencies ++= Seq( // published for no particular version
+  "com.typesafe"   % "config"          % "1.4.2",
   "ch.qos.logback" % "logback-classic" % "1.4.8"
 )
 

@@ -1,7 +1,7 @@
 ThisBuild / name         := "template"
 ThisBuild / organization := "com.thedmitriyk"
 
-ThisBuild / scalaVersion     := "3.3.0"
+ThisBuild / scalaVersion     := "3.3.1-RC5"
 ThisBuild / packageTimestamp := Package.gitCommitDateTimestamp
 
 scalacOptions ++= Seq(
@@ -28,7 +28,7 @@ libraryDependencies ++= Seq( // published for Scala 3
 
 libraryDependencies ++= Seq( // published for no particular version
   "com.typesafe"   % "config"          % "1.4.2",
-  "ch.qos.logback" % "logback-classic" % "1.4.8"
+  "ch.qos.logback" % "logback-classic" % "1.4.11"
 )
 
 dependencyAllowPreRelease := true

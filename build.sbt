@@ -19,7 +19,7 @@ resolvers ++= Resolver.sonatypeOssRepos("releases") ++
               Resolver.sonatypeOssRepos("snapshots")
 
 libraryDependencies ++= Seq( // published for Scala 3
-  "org.scalameta" %% "munit" % "1.0.0-M9" % Test
+  "org.scalameta" %% "munit" % "1.0.0-M10" % Test
 )
 
 // libraryDependencies ++= Seq( // published for Scala 2.13
